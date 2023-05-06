@@ -9,6 +9,7 @@ export default function Main() {
       <header></header>
       <main>
         <FontAwesomeIcon icon={faHeart} className="heart animate-heartbeat" />
+        
         <div>
           <a href="#" className="bookmark"></a>
           <a href="#" className="bookmark"></a>
