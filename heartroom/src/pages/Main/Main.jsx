@@ -1,5 +1,5 @@
 import React from "react";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faComments } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import Music from "../Music/Music";
 // import Chat from "../Chat/Chat"
@@ -24,7 +24,7 @@ export default function Main() {
       </div>
       <main>
         <FontAwesomeIcon icon={faHeart} className="heart animate-heartbeat" />
-        {/* <Chat /> */}
+        <FontAwesomeIcon icon={faComments} className="chatting" />
       </main>
     </>
   );
