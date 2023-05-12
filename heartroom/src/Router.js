@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main/Main";
 
+
 const Router = () => {
   <BrowserRouter>
     <Routes>
@@ -11,3 +12,4 @@ const Router = () => {
 };
 
 export default Router;
+
